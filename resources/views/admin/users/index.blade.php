@@ -1,6 +1,6 @@
 @extends('layouts.app', [
     'active_page' => 'users',
-    'page_title' => __('Manage Users')
+    'breadcrumbs' => [__('Manage Users') => route('users.index')]
 ])
 
 @section('content')
